@@ -24,10 +24,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         settings.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(MainActivity.this, Settings.class);
+                startActivity(intent);
+            }
+        });
+
+        statistics.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(MainActivity.this, Circle.class);
                 startActivity(intent);
             }
         });

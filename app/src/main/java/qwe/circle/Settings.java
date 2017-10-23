@@ -21,7 +21,7 @@ public class Settings extends Activity {
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
         spinner.setAdapter(adapter);
         // заголовок
-        spinner.setPrompt("Цвет");
+      //  spinner.setPrompt("Цвет");
         // выделяем элемент
         spinner.setSelection(0);
 
@@ -32,7 +32,7 @@ public class Settings extends Activity {
         Spinner spinner2 = (Spinner) findViewById(R.id.spinner2);
         spinner2.setAdapter(adapter2);
         // заголовок
-        spinner2.setPrompt("Цвет"); //не работает?!
+      //  spinner2.setPrompt("Цвет"); //не работает?!
         // выделяем элемент
         spinner2.setSelection(1);
     }

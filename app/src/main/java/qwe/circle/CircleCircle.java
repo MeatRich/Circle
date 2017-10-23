@@ -1,36 +1,35 @@
-/*package qwe.circle;
-
-import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.MotionEvent;
-import android.view.View;
-import android.widget.TextView;
-
-public class Circle extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_circle);
-    }
-}*/
-
 package qwe.circle;
 
-        import android.graphics.Color;
+import android.graphics.Color;
 
-        import java.util.LinkedList;
+import java.util.LinkedList;
+
+/**
+ * Created by Лёка^_^ on 18.10.2017.
+ */
+
+/*public class Circle {
+
+    public boolean clickable;
+    public Color color;
+    public int radius;
+    public int x;
+    public int y;
+    LinkedList <Click> clicks;
+    long lifeTime;
+    long reactionTime;
+
+}*/
 
 
-
-        import android.app.Activity;
+import android.app.Activity;
         import android.os.Bundle;
         import android.view.MotionEvent;
         import android.view.View;
+        import android.view.View.OnTouchListener;
         import android.widget.TextView;
 
-public class Circle extends Activity implements View.OnTouchListener {
+public class CircleCircle extends Activity implements OnTouchListener {
 
     TextView tv;
     float x;
@@ -46,10 +45,6 @@ public class Circle extends Activity implements View.OnTouchListener {
         tv = new TextView(this);
         tv.setOnTouchListener(this);
         setContentView(tv);
-
-      /*  Test d = new Test(this); // создаем экземпляр нашего класса
-        setContentView(d); // и устанавливаем отображение нашего класса
-        //setContentView(R.layout.main);*/
     }
 
     @Override

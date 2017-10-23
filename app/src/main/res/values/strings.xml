@@ -5,4 +5,6 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
 
     <string name="title_activity_user_test">UserTest</string>
+
+    <string name="title_activity_test">TestActivity</string>
 </resources>

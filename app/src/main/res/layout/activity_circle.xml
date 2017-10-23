@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-  tools:context="qwe.circle.UserTest">
+    tools:context="qwe.circle.Circle">
 
 </android.support.constraint.ConstraintLayout>

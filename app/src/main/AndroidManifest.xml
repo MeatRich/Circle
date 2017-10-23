@@ -28,12 +28,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Settings" />
-        <activity
-            android:name=".UserTest"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_user_test"
-            android:theme="@style/FullscreenTheme" />
-        <activity android:name=".User"></activity>
+        <activity android:name=".User" />
+        <activity android:name=".UserTest" />
+        <activity android:name=".Circle"></activity>
     </application>
 
 </manifest>
