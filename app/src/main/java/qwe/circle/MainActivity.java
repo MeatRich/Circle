@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
+
         statistics.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
