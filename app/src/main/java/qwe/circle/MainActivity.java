@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         Button newTest = (Button) findViewById(R.id.button);
         Button settings = (Button) findViewById(qwe.circle.R.id.button2);
         Button statistics = (Button) findViewById(R.id.button3);
